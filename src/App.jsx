@@ -9,11 +9,12 @@ function App() {
   return (
     <>
       <Layout>
-        <section >
-          <div>
-            <h1>Sobre mim</h1>
-            <h2>Diego Henrique de Faria <br />Sou estudante e desenvolvedor em formação,  com foco em desenvolvimento web. Tenho exériência com HTML, CSS, JavaScript e Python, além de interesse constante em aprender novas tecnologias. Gosto de transformar  ideais em soluçôes  funcionais, sempre buscando clareza, organização e boa experiência para o usuário</h2>
-          </div>
+        <section style={{backgroundColor:'black', padding:'20px', color:'#f1ff1f1', display:'flex', flexDirection:'column', alignItems:'center', textAlign:'center'}}>
+          <div  style={{padding:'60px'}}>
+            <h1 style={{color:'#e2dede'}}>Sobre mim</h1>
+            <h2  style={{color:'#e2dede', textJustify:'center'}}>Diego Henrique de Faria <br /></h2>
+            <h3 style={{color:'#bfbcbce4'}}>Sou estudante e desenvolvedor em formação,  com foco em desenvolvimento web. Tenho exériência com HTML, CSS, JavaScript e Python, além de interesse constante em aprender novas tecnologias. Gosto de transformar  ideais em soluçôes  funcionais, sempre buscando clareza, organização e boa experiência para o usuário</h3>
+            </div>
         </section>
         <section>
             <h1>Habilidades</h1>
