@@ -66,3 +66,44 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
+section{
+  scroll-margin-top: 90px;
+}
+
+.coluna1{
+  display: flex;
+  gap: 500px;
+}
+
+.coluna1 div> {
+  flex: 1; 
+}
+.col1{
+  padding: 70px;
+  color:#242424d3;
+  text-align: justify;
+  
+}
+
+.h21{
+  padding: 60px;
+  padding-bottom: 0px;
+  color: #1a1a1a;
+  font-weight: bolder;
+}
+
+.div22{
+  padding: 10px;
+  margin-right: 140px;
+  margin-top: 40px;
+  text-align: justify;
+}
+
+.title1{
+  text-align: center;
+}
